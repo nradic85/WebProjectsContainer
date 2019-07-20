@@ -18,7 +18,7 @@ namespace WebApplicationsContainer
         protected void btnSave_Click(object sender, EventArgs e)
         {
             //ScriptManager.RegisterStartupScript(this.Page, Page.GetType(), "info only", "alert(' "+ tbName.Text +"');", true);
-            DataContext db = new DataContext(string )
+            //DataContext db = new DataContext(string )
             tbName.Text = null;
         }
     }
